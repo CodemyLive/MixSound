@@ -9,61 +9,40 @@
 
 
     <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/image_margin_top"
-        android:background="@drawable/ic_mic" />
+        android:id="@+id/image_button_record"
+        style="@style/image_record" />
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Record" />
+        style="@style/codeFont"
+        android:text="@string/text_record" />
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:gravity="center"
-        android:orientation="horizontal">
+        style="@style/layout_horizontal_style">
 
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:orientation="vertical">
+            style="@style/layout_vertical_style">
 
             <ImageButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/image_margin"
-                android:background="@drawable/ic_chipmunk"
-                android:padding="20dp" />
+                android:id="@+id/image_button_slow"
+                style="@style/image_slow" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:text="Slow" />
+                style="@style/codeFont"
+                android:text="@string/text_slow"
+                android:layout_marginLeft="@dimen/text_margin"/>
 
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:orientation="vertical">
+            style="@style/layout_vertical_style">
 
             <ImageButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/image_margin"
-                android:layout_marginRight="@dimen/image_margin"
-                android:background="@drawable/ic_darth_vader" />
+                android:id="@+id/image_button_darth"
+                style="@style/image_darth_vader" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Darth Vader" />
+                style="@style/codeFont"
+                android:text="@string/text_darth_vader" />
 
         </LinearLayout>
 
@@ -71,51 +50,33 @@
 
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:gravity="center"
-        android:orientation="horizontal">
+       style="@style/layout_horizontal_style">
 
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:orientation="vertical">
+            style="@style/layout_vertical_style">
 
             <ImageButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/image_margin"
-                android:background="@drawable/ic_fast" />
+                android:id="@+id/image_button_reverb"
+                style="@style/image_reverb" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:text="Reverb" />
+                style="@style/codeFont"
+                android:text="@string/text_reverb"
+                android:layout_marginLeft="@dimen/text_margin"/>
 
         </LinearLayout>
 
 
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:orientation="vertical">
+            style="@style/layout_vertical_style">
 
             <ImageButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/image_margin"
-                android:layout_marginRight="@dimen/image_margin"
-                android:background="@drawable/ic_rabbit" />
+                android:id="@+id/image_button_fast"
+                style="@style/image_fast" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:text="Fast" />
+                style="@style/codeFont"
+                android:text="@string/text_fast" />
 
         </LinearLayout>
 

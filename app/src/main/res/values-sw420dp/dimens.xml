@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    //image margin for general
     <dimen name="image_margin">20dp</dimen>
 
+    //image margin for top
+    <dimen name="image_margin_top">70dp</dimen>
 
-    <dimen name="image_margin_top">80dp</dimen>
+    //Image padding for general
+    <dimen name="image_padding">20dp</dimen>
 
-    //Image width and height
-    <dimen name="image_width">20dp</dimen>
-    <dimen name="image_height">20dp</dimen>
+    //TextViews
+    <dimen name="text_margin">20dp</dimen>
 
 </resources>
