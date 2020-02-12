@@ -3,10 +3,82 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginTop="32dp"
     android:gravity="center"
     android:orientation="vertical"
-    android:padding="16dp"
     tools:context=".MainActivity">
 
+
+    <ImageButton
+        android:id="@+id/image_button_record"
+        style="@style/image_record" />
+
+    <TextView
+        style="@style/codeFont"
+        android:text="@string/text_record" />
+
+    <LinearLayout
+        style="@style/layout_horizontal_style">
+
+        <LinearLayout
+            style="@style/layout_vertical_style">
+
+            <ImageButton
+                android:id="@+id/image_button_slow"
+                style="@style/image_slow" />
+
+            <TextView
+                style="@style/codeFont"
+                android:text="@string/text_slow"
+                android:layout_marginLeft="@dimen/text_margin"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/layout_vertical_style">
+
+            <ImageButton
+                android:id="@+id/image_button_darth"
+                style="@style/image_darth_vader" />
+
+            <TextView
+                style="@style/codeFont"
+                android:text="@string/text_darth_vader" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+       style="@style/layout_horizontal_style">
+
+        <LinearLayout
+            style="@style/layout_vertical_style">
+
+            <ImageButton
+                android:id="@+id/image_button_reverb"
+                style="@style/image_reverb" />
+
+            <TextView
+                style="@style/codeFont"
+                android:text="@string/text_reverb"
+                android:layout_marginLeft="@dimen/text_margin"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            style="@style/layout_vertical_style">
+
+            <ImageButton
+                android:id="@+id/image_button_fast"
+                style="@style/image_fast" />
+
+            <TextView
+                style="@style/codeFont"
+                android:text="@string/text_fast" />
+
+        </LinearLayout>
+
+    </LinearLayout>
 </LinearLayout>
